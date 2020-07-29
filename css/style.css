@@ -76,7 +76,7 @@ a:hover {
 	color: #ddd;
 }
 
-#bad-con {
+.bad-con {
 	color: white;
 	position: absolute;
     top: 130px;

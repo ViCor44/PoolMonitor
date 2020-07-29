@@ -135,17 +135,22 @@ function showContent(itemName){
 				codeBlockTwo += 	'<div id="bx' + i + '" style="display: none" class="element element-1" >' +
 									'<span class="tooltiptext">Clique para detalhes</span>' +							
 									'<p><span class="poolName" id="input4-' + i + '" onclick="callDetails(' + i + ')">'+ ipLen[i-1].name +'</span></p>' +
-									'<p id="cloro-' + i + '">Cloro Livre:  <span id="input1-' + i + '">...</span></p>'+
-									'<p id="ph-' + i + '">pH:     <span id="input2-' + i + '">...</span></p>' +
-									'<p id="temp-' + i + '">Temperatura: <span id="input3-' + i + '">...</span></p>' +
-									'<span id="input5-' + i + '">' +
+									'<p id="cloro-' + i + '" style="display: none">Cloro Livre:  <span id="input1-' + i + '">...</span></p>'+
+									'<p id="ph-' + i + '" style="display: none">pH:     <span id="input2-' + i + '">...</span></p>' +
+									'<p id="temp-' + i + '" style="display: none">Temperatura: <span id="input3-' + i + '">...</span></p>' +
+									'<span id="input5-' + i + '" style="display: none">' +
 										'<img src="Img/alarm.gif" class="danger">' +
-										'<p id="bad-con">Verifique controlador!</p>' +
+										'<p class="bad-con">Verifique controlador!</p>' +
 									'</span>' +
-									'<span id="input6-' + i + '">' +
+									'<span id="input6-' + i + '"  style="display: none">' +
 										'<img src="Img/disconnect.png" class="danger">' +
-										'<p id="bad-con">Verifique ligação!</p>' +
+										'<p class="bad-con">Verifique ligação!</p>' +
 									'</span>' +
+									'<span id="input7-' + i + '">' +
+										'<img src="Img/loader.gif" class="danger">' +
+										'<p class="bad-con">A estabelecer ligação</p>' +
+									'</span>' +
+
 								'</div>';				
 				
 			}

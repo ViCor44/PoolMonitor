@@ -60,7 +60,8 @@ function GetArduinoInputs(ip, sinc, elem)
                     document.getElementById("cloro-" + elem).style.display = "block";                          
                     document.getElementById("ph-" + elem).style.display = "block";                           
                     document.getElementById("temp-" + elem).style.display = "block";  
-                    document.getElementById("input6-" + elem).style.display = "none"; 
+                    document.getElementById("input6-" + elem).style.display = "none";
+                    document.getElementById("input7-" + elem).style.display = "none"; 
                     if (alarme == '1') {
                         var x = document.getElementById("input5-" + elem);
                         x.style.display = "none";
@@ -69,6 +70,7 @@ function GetArduinoInputs(ip, sinc, elem)
                         document.getElementById("ph-" + elem).style.display = "none";                           
                         document.getElementById("temp-" + elem).style.display = "none"; 
                         document.getElementById("input6-" + elem).style.display = "none";
+                        document.getElementById("input7-" + elem).style.display = "none";
                         document.getElementById("input5-" + elem).style.display = "block";                                                  
                         document.getElementById("input4-" + elem).style.color = "red"; 
                     }                       
@@ -85,7 +87,8 @@ function GetArduinoInputs(ip, sinc, elem)
                 document.getElementById("ph-" + elem).style.display = "none";                           
                 document.getElementById("temp-" + elem).style.display = "none"; 
                 document.getElementById("input5-" + elem).style.display = "none";
-                document.getElementById("input6-" + elem).style.display = "block";                                                  
+                document.getElementById("input6-" + elem).style.display = "block"; 
+                document.getElementById("input7-" + elem).style.display = "none";                                                 
                 document.getElementById("input4-" + elem).style.color = "red"; 
             }
         }
