@@ -1,0 +1,5 @@
+Arduino cookbook
+https://codewithawa.com/posts/admin-and-user-login-in-php-and-mysql-database
+https://pplware.sapo.pt/tutoriais/insercao-de-dados-em-mysql-com-php-ajax/
+https://startingelectronics.org/tutorials/arduino/ethernet-shield-web-server-tutorial/SD-card-AJAX-XML-web-server/
+https://www.w3schools.com/
