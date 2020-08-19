@@ -7,15 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1 minimum-scale=1" />	
     <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-    <script type="text/javascript" src="js/jqxcore.js"></script>
-    <script type="text/javascript" src="js/jqxbuttons.js"></script>
-    <script type="text/javascript" src="js/jqxcheckbox.js"></script>
-    <script type="text/javascript" src="js/jqxscrollbar.js"></script>
-    <script type="text/javascript" src="js/jqxmenu.js"></script>
-    <script type="text/javascript" src="js/jqxgrid.js"></script>
-    <script type="text/javascript" src="js/jqxgrid.selection.js"></script> 
-    <script type="text/javascript" src="js/jqxgrid.columnsresize.js"></script> 
-    <script type="text/javascript" src="js/jqxdata.js"></script> 
+    <script type="text/javascript" src="js/jqwidgets/jqxcore.js"></script>
+    <script type="text/javascript" src="js/jqwidgets/jqxbuttons.js"></script>
+    <script type="text/javascript" src="js/jqwidgets/jqxcheckbox.js"></script>
+    <script type="text/javascript" src="js/jqwidgets/jqxscrollbar.js"></script>
+    <script type="text/javascript" src="js/jqwidgets/jqxmenu.js"></script>
+    <script type="text/javascript" src="js/jqwidgets/jqxgrid.js"></script>
+    <script type="text/javascript" src="js/jqwidgets/jqxgrid.selection.js"></script> 
+    <script type="text/javascript" src="js/jqwidgets/jqxgrid.columnsresize.js"></script> 
+    <script type="text/javascript" src="js/jqwidgets/jqxdata.js"></script> 
     <script type="text/javascript" src="js/demos.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {

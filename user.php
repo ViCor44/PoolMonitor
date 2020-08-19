@@ -69,6 +69,7 @@
 	<script src="js/request.js"></script>
 	<script>
 	(function() {
+		showContent("Visão Global");
 		var menuEl = document.getElementById('ml-menu'),
 			mlmenu = new MLMenu(menuEl, {
 				backCtrl : false, 
