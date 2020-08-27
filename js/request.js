@@ -25,6 +25,13 @@ function GetArduinoInputs(ip, sinc, elem)
                     if (cloroLivre.innerHTML >= 3.00 || cloroLivre.innerHTML <= 0.60){
                         document.getElementById("input1-" + elem).style.backgroundColor = "red";
                         document.getElementById("input1-" + elem).style.color = "white";
+						document.getElementById("input1-" + elem).style.cursor = "pointer";
+						if(cloroLivre.innerHTML >= 3.00){
+							document.getElementById("input1-" + elem).addEventListener("click", chlorineHigh);
+						}
+						if(cloroLivre.innerHTML <= 0.60){
+							document.getElementById("input1-" + elem).addEventListener("click", chlorineLow);
+						}
 
                     }
                     else {
@@ -105,5 +112,13 @@ function pHHigh(){
 
 function pHLow(){
 	swal("pH demasiado baixo!", "1. Dosagem elevada, verifique bomba doseadora \n2. Verifique calibração do electrodo\n3. Verifique parâmetros do controlador", "error");	
+}
+
+function chlorineLow(){
+	swal("Cloro demasiado baixo!", "1. Controlador em alarme, verifique controlador\n2. Verifique bomba doseadora\n3. Verifique calibração do electrodo", "error");	
+}
+
+function chlorineHigh(){
+	swal("Cloro demasiado alto!", "1. Dosagem elevada, verifique bomba doseadora \n2. Verifique calibração do electrodo\n3. Verifique parâmetros do controlador", "error");	
 }
         

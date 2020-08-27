@@ -112,14 +112,7 @@ function showContent(itemName){
 			}
 		};
 		xmlhttp.open("GET", "ip_table_db.php", true);
-		xmlhttp.send();		
-		classie.add(gridWrapper, 'content--loading');
-		
-		setTimeout(function() {	
-						
-			classie.remove(gridWrapper, 'content--loading');				
-			sleep(1500);			
-		}, 700);		
+		xmlhttp.send();					
 				
 		var codeBlockOne;
 		var codeBlockTwo = "";

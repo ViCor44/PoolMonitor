@@ -125,8 +125,8 @@
                             alignEndPointsWithIntervals: true,
                             valueAxis:
                             {
-                                minValue: 0,
-                                maxValue: 5,                                
+                                minValue: 'auto',
+                                maxValue: 'auto',                                
                             },
                             series: [
                                     { dataField: 'value', opacity: 1, lineWidth: 2, symbolType: 'circle', fillColorSymbolSelected: 'white', symbolSize: 4 }
@@ -171,8 +171,8 @@
                             alignEndPointsWithIntervals: true,
                             valueAxis:
                             {
-                                minValue: 0,
-                                maxValue: 14,                                
+                                minValue: 'auto',
+                                maxValue: 'auto',                                
                             },
                             series: [
                                     { dataField: 'value', opacity: 1, lineWidth: 2, symbolType: 'circle', fillColorSymbolSelected: 'white', symbolSize: 4 }
@@ -217,8 +217,8 @@
                             alignEndPointsWithIntervals: true,
                             valueAxis:
                             {
-                                minValue: 0,
-                                maxValue: 50,                                
+                                minValue: 'auto',
+                                maxValue: 'auto',                                
                             },
                             series: [
                                     { dataField: 'value', opacity: 1, lineWidth: 2, symbolType: 'circle', fillColorSymbolSelected: 'white', symbolSize: 4 }
