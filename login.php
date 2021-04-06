@@ -10,6 +10,7 @@ include('functions.php') ?>
 <html>
 <head>
 	<title>PoolMonitor Login</title>
+	<link rel="icon" href="img/logo.png">
 	<link rel="stylesheet" type="text/css" href="css/style.css">	
 </head>
 <body>
